@@ -1,7 +1,29 @@
 aid: bloomfilter
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomfilter.png
 name: Bloomfilter
-description: Bloomfilter is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Bloomfilter is a process intelligence platform that gives enterprises
+  end-to-end visibility, traceability, and control over how AI agents and humans
+  execute software delivery work. It unifies data across development and design
+  tools such as Jira, GitHub, Azure DevOps, and Figma into a structured,
+  AI-enabled data stream and builds a connected process graph across the
+  software development lifecycle. Teams use Bloomfilter to govern hybrid
+  human-agent workflows through process mining, compliance monitoring,
+  cycle-time analysis, and performance measurement, so leaders can see how work
+  actually flows and where value is created or lost. The company is a Techstars
+  portfolio company and was added to the API Evangelist network as a portfolio
+  lead for enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/bloomfilter/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Process Intelligence
+- Software Development Lifecycle
+- AI Agents
+- Agent Governance
+- Process Mining
+- Observability
+- Compliance
+- Workflow Automation
+- DevOps
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +52,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bloomfilter-domain-security.yml
 - type: Website
-  url: https://thebloomfilter.com/
+  url: https://www.bloomfilter.ai/
+- type: Blog
+  url: https://www.bloomfilter.ai/blog
+- type: Login
+  url: https://run.bloomfilter.app/
+- type: SignUp
+  url: https://www.bloomfilter.ai/agent-miner/demo
+- type: TermsOfService
+  url: https://www.bloomfilter.ai/legal/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.bloomfilter.ai/legal/privacy-policy
+- type: Compliance
+  url: security/bloomfilter-trust-center.yml
+- type: TrustCenter
+  url: security/bloomfilter-trust-center.yml
+- type: SecurityTxt
+  url: well-known/bloomfilter-security.txt
+- type: WellKnown
+  url: well-known/bloomfilter-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/bloomfilter-vulnerability-disclosure.yml
+- type: Security
+  url: well-known/bloomfilter-security.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

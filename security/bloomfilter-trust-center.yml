@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+probe: false
+source: https://www.bloomfilter.ai/
+url: https://www.bloomfilter.ai/
+certifications:
+- SOC 2 Type 2
+evidence:
+- source: https://cdn.prod.website-files.com/683b396b4b853fc8c89fcff3/68cc103f862a870abb762902_Bloomfilter%2C%20Inc.%20SOC%202%20Type%202%20Report.pdf
+  kind: soc2-report
+  note: Published SOC 2 Type 2 report (Bloomfilter, Inc.) linked from the marketing site
+legal:
+- name: Privacy Policy
+  url: https://www.bloomfilter.ai/legal/privacy-policy
+- name: Terms and Conditions
+  url: https://www.bloomfilter.ai/legal/terms-and-conditions
+- name: Data Processing Agreement
+  url: https://www.bloomfilter.ai/legal/data-processing-agreement
+- name: AI Policy
+  url: https://www.bloomfilter.ai/legal/ai-policy

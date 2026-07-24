@@ -1,0 +1,34 @@
+generated: '2026-07-18'
+method: searched
+source: live probe of /.well-known/ on provider hosts
+hosts:
+- host: https://run.bloomfilter.app
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: bloomfilter-security.txt
+    note: RFC 9116, PGP-signed, Contact security@bloomfilter.ai
+  - path: /.well-known/openid-configuration
+    status: 200
+    note: returns SPA HTML (text/html) not OIDC JSON - not a real discovery document
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    note: returns SPA HTML (text/html) not RFC 8414 JSON - not a real discovery document
+  - path: /.well-known/api-catalog
+    status: 200
+    note: returns SPA HTML (text/html) not RFC 9727 catalog - not a real discovery document
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    note: returns SPA HTML (text/html) not a plugin manifest - not a real document
+- host: https://www.bloomfilter.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

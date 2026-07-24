@@ -1,0 +1,23 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: mailto:security@bloomfilter.ai
+Expires: 2027-06-10T14:18:31.000Z
+Encryption: https://run.bloomfilter.app/pgp-key.txt
+Preferred-Languages: en
+Canonical: https://run.bloomfilter.app/.well-known/security.txt
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCAAdFiEEN82tN9pTi+UmIj//w4hBf8fbqGEFAmowQ1gACgkQw4hBf8fb
+qGFssgv/S+cTG1d6QtZPxZ7kbNK9AO+p8Czu96cSAUXUBdmNoifEbYmmvnpZTWH9
+XLfXladUmimMaucRU0zfEP2fq+g8hWUrhperYqV8lHq5si4G57ThLplQXI44yTIB
+9mm1OyQdvrPw6iOxSx8q/dNt/2WXj3BOlh7VSf0iiMzOkSo6HFoiiT1ps2JCyCmc
+S2jyhJxBkmc5GFHf/outI4AF2ukJoeEB6Fgk06RrTku0DIzawLDR1wKijEF46pc8
+GF/la4dzGoHh2A0s0NLhk8QZ6N+U1XWHAJaTuJibmPjAxnDNWxiiZO7OpqMxMDba
+JfoZk8R0T54a8KQuFh7/UlJWxxqDpx+ODQGrEuySYwqzdPz3KMalCNdq8LQ0mcvD
+jJZjMde19rT/DY2tTA/yDx4aLek7xHaCFhfkZeRYi2wZ1jHVOdfykmlqch9FDFLZ
+CCnBMcXp7YT2b/DFtsxr1qIQ4cOSKJd3dPTLTgsHw58eueWnq5s0Vs9lhS6Hep6L
+HO/4d/Pf
+=j89j
+-----END PGP SIGNATURE-----
