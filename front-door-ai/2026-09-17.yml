@@ -1,0 +1,29 @@
+# Front Door AI Index — bloomfilter — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: bloomfilter
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.bloomfilter.ai
+  final_host: bloomfilter.ai
+  ownership: own
+  owner: bloomfilter
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 15
+  host_score: 15
+  density: 20.35
+  words: 737
+  tiers:
+    agentic: 4
+    core: 11
+    model: 0
+  ambiguous: 23
+  top_terms:
+    agent: 23
+    AI: 11
+    agentic: 2
+    AI assistant: 1
+    copilot: 1
