@@ -54,7 +54,7 @@ tags:
 - Process Mining
 - Observability
 - Compliance
-- Workflow-Automation
+- Workflow Automation
 - DevOps
 tags_raw:
 - Company
@@ -67,6 +67,7 @@ tags_raw:
 - Compliance
 - Workflow Automation
 - DevOps
+- Workflow-Automation
 apis: []
 maintainers:
 - FN: Kin Lane
